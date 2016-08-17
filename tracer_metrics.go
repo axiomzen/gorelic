@@ -1,9 +1,10 @@
 package gorelic
 
 import (
-	metrics "github.com/yvasiyarov/go-metrics"
-	"github.com/yvasiyarov/newrelic_platform_go"
 	"time"
+
+	metrics "github.com/rcrowley/go-metrics"
+	"github.com/yvasiyarov/newrelic_platform_go"
 )
 
 type Tracer struct {
